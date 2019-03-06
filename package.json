@@ -1,0 +1,29 @@
+{
+  "name": "freecodecamp challenge",
+  "version": "1.0.0",
+  "description": "Practice JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint js/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senchkim/FreeCodeCamp.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "es6",
+    "tdd",
+    "frontend"
+  ],
+  "author": "senchkim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senchkim/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/senchkim/FreeCodeCamp#readme",
+  "devDependencies": {
+    "eslint": "5.7.0",
+    "eslint-config-htmlacademy": "0.5.x"
+  }
+}
