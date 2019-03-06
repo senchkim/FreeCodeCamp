@@ -34,8 +34,8 @@ Your response should be a number.
 
 // Решение 3 (es6)
 // И снова решение в одну строку использовав методы `split` и `sort`
-const findLongestWordLength = (str) => (str.split(` `).sort((a,b) => {return b.length - a.length})[0].length);
-findLongestWordLength(`The quick brown fox jumped over the lazy dog`);
+// const findLongestWordLength = (str) => (str.split(` `).sort((a,b) => {return b.length - a.length})[0].length);
+// findLongestWordLength(`The quick brown fox jumped over the lazy dog`);
 
 
 // Решение 4 (es6)
