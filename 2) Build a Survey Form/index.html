@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1 id="title">Survey Form</h1>
+  <form action="#" id="survey-form">
+    <div class="form-container">
+      <p id="description">Let us know how we can improve freeCodeCamp</p>
+      <div class="form-block">
+        <label id="name-label" for="name" class="label">* Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name" class="input" required>
+      </div>
+      <div class="form-block">
+        <label id="email-label" for="email" class="label">* Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email" class="input" required>
+      </div>
+      <div class="form-block">
+        <label id="number-label" for="number" class="label">* Age:</label>
+        <input type="number" id="number" name="number" min="1" max="100" placeholder="Age" class="input" required>
+      </div>
+      <div class="form-block">
+        <div class="form-block-left">Which option best describes<br/> your current role?</div>
+        <select name="currentPos" id="dropdown">
+          <option value="student">Student</option>
+          <option value="job">Job</option>
+          <option value="learner">Learner</option>
+          <option value="preferNo">PreferNo</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-block">
+        <div class="form-block-left">
+          * How likely is that<br/> you would recommend<br/> freeCodeCamp to a friend?
+        </div>
+        <div class="rating">
+          <div class="rating-block">
+            <input type="radio" id="definitely" name="radio-buttons" value="1">
+            <label for="definitely" class="label-radio">Definitely</label>
+          </div>
+          <div class="rating-block">
+            <input type="radio" id="maybe" name="radio-buttons" value="2">
+            <label for="maybe" class="label-radio">Maybe</label>
+          </div>
+          <div class="rating-block">
+            <input type="radio" id="not-sure" name="radio-buttons" value="3">
+            <label for="not-sure" class="label-radio">Not Sure</label>
+          </div>
+          <div class="rating-block">
+            <input type="radio" id="no" name="radio-buttons" value="4" disabled>
+            <label for="no" class="label-radio">No</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-block">
+        <div class="form-block-left">Things that should be<br/> improved in the future<br/>
+          (Check all that apply)
+        </div>
+        <div class="improve">
+          <div class="improve-block">
+            <input type="checkbox" id="front" name="prefer" value="1" class="styled-checkbox">
+            <label for="front">FrontEnd</label>
+          </div>
+          <div class="improve-block">
+            <input type="checkbox" id="backend" name="prefer" value="2" class="styled-checkbox">
+            <label for="backend">BackEnd</label>
+          </div>
+          <div class="improve-block">
+            <input type="checkbox" id="videos" name="prefer" value="3" class="styled-checkbox">
+            <label for="videos">Videos</label>
+          </div>
+          <div class="improve-block">
+            <input type="checkbox" id="challenge" name="prefer" value="4" class="styled-checkbox">
+            <label for="challenge">Challenges</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-block">
+        <div class="form-block-left">Any Comments<br/> or Suggestions?</div>
+        <textarea name="comments" id="textarea" cols="30" rows="3">Enter your comments...</textarea>
+      </div>
+      <div class="form-btn">
+        <button id="submit" type="submit">Submit</button>
+      </div>
+    </div>
+    <ul class="bg-bubbles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </form>
+</div>
+</body>
+</html>
