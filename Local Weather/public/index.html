@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Local Weather App</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class='loading-icon'>
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+<div class="container">
+  <div class="location">
+    <h1 class="location-timezone"></h1>
+    <div class="location-wrapper">
+      <canvas class="icon" width="128" height="128"></canvas>
+      <div class="temperature-description"></div>
+    </div>
+  </div>
+  <div class="temperature">
+    <div class="degree-section">
+      <h2 class="temperature-degree"></h2>
+      <span>F</span>
+    </div>
+    <div class="info">
+      <div class="humidity">
+        <div class="humidity-header">Humidity:&nbsp;</div>
+        <div class="humidity-title"></div>
+        <span>%</span>
+      </div>
+      <div class="time">
+        <div class="time-title">
+          Time:&nbsp;
+        </div>
+        <div class="time-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="bundle.js"></script>
+<script src="skycons.js"></script>
+</body>
+</html>
