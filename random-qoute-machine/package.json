@@ -1,0 +1,50 @@
+{
+  "name": "freecodecamp",
+  "version": "1.0.0",
+  "description": "Random Quote Machine App",
+  "scripts": {
+    "eslint": "eslint ./gulpfile.js js/",
+    "build": "gulp build",
+    "start": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senchkim/FreeCodeCamp.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "es6",
+    "frontend"
+  ],
+  "author": "senchkim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senchkim/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/senchkim/FreeCodeCamp#readme",
+  "devDependencies": {
+    "@babel/core": "7.0.0",
+    "@babel/preset-env": "7.0.0",
+    "autoprefixer": "9.0.2",
+    "browser-sync": "2.26.3",
+    "chai": "4.2.0",
+    "css-mqpacker": "7.0.0",
+    "del": "3.0.0",
+    "eslint": "5.7.0",
+    "eslint-config-htmlacademy": "0.5.x",
+    "gulp": "3.9.1",
+    "gulp-better-rollup": "3.3.0",
+    "gulp-csso": "3.0.1",
+    "gulp-imagemin": "4.1.0",
+    "gulp-mocha": "6.0.0",
+    "gulp-plumber": "1.2.0",
+    "gulp-postcss": "7.0.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.1",
+    "gulp-sourcemaps": "2.6.4",
+    "gulp-svgstore": "6.1.1",
+    "rollup-plugin-babel": "4.0.3",
+    "rollup-plugin-commonjs": "9.2.0",
+    "rollup-plugin-node-resolve": "3.4.0"
+  }
+}

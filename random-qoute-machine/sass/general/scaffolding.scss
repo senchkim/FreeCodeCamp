@@ -1,0 +1,51 @@
+@import "general/variables";
+
+html,body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  color: $main-font-color;
+  background-color: #ccc;
+  font-family: "Tahoma", "Arial", sans-serif;
+}
+
+#quote-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: $main-white-color;
+  background:
+    radial-gradient(#000 15%, transparent 16%) 0 0,
+    radial-gradient(#000 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+  border-radius: 6px;
+  box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .2);
+  animation: zoomIn 1s;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
