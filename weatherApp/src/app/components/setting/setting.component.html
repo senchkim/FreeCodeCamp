@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="text-center">Введите название города пожалуйста</h1>
+    </div>
+    <div class="col-lg-12">
+      <form>
+        <div class="form-group">
+          <label>Город</label>
+          <input type="text" class="form-control" name="city" placeholder="Введите название города н английском языке"
+                 [(ngModel)]="city"/>
+        </div>
+        <button class="btn btn-success" (click)="saveForm()">Показать данные</button>
+      </form>
+    </div>
+  </div>
+</div>
